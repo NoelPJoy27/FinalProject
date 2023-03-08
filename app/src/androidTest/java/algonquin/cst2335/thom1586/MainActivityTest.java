@@ -115,7 +115,7 @@ public class MainActivityTest {
         materialButton.perform(click());
 
         ViewInteraction textView = onView(withId(R.id.HelloWorld));
-        textView.check(matches(withText("Your password is Complex Enough")));
+        textView.check(matches(withText("Your password meets the requirement")));
     }
 
 }

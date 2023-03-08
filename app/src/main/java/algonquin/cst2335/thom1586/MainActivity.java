@@ -74,7 +74,7 @@ public class MainActivity<btn> extends AppCompatActivity {
             tv.setText("You shall not pass!");
             return false;
         } else
-            tv.setText("Your password is Complex Enough");
+            tv.setText("Your password meets the requirement");
         return true; //only get here if they're all true
     }
 
